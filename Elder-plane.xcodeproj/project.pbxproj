@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4ED02E972B08DAA200430441 /* SelectTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED02E962B08DAA200430441 /* SelectTypeView.swift */; };
+		4ED02E9B2B08E73A00430441 /* SelectBodyWeakness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED02E9A2B08E73A00430441 /* SelectBodyWeakness.swift */; };
+		A92AAE122B09A59F00379E3B /* MedicationImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A92AAE112B09A59F00379E3B /* MedicationImageClassifier.mlmodel */; };
 		AB231B072B087BDE0012EE4F /* Elder_planeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB231B062B087BDE0012EE4F /* Elder_planeApp.swift */; };
 		AB231B092B087BDE0012EE4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB231B082B087BDE0012EE4F /* ContentView.swift */; };
 		AB231B0B2B087BDF0012EE4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB231B0A2B087BDF0012EE4F /* Assets.xcassets */; };
@@ -14,6 +17,31 @@
 		AB231B182B087BDF0012EE4F /* Elder_planeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB231B172B087BDF0012EE4F /* Elder_planeTests.swift */; };
 		AB231B222B087BDF0012EE4F /* Elder_planeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB231B212B087BDF0012EE4F /* Elder_planeUITests.swift */; };
 		AB231B242B087BDF0012EE4F /* Elder_planeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB231B232B087BDF0012EE4F /* Elder_planeUITestsLaunchTests.swift */; };
+		ED488A422B0902FD00D16E15 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A412B0902FD00D16E15 /* DiscoverView.swift */; };
+		ED488A452B09050100D16E15 /* AllSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A442B09050100D16E15 /* AllSetView.swift */; };
+		ED488A472B09057400D16E15 /* InputMedications.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A462B09057400D16E15 /* InputMedications.swift */; };
+		ED488A492B0905D000D16E15 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A482B0905D000D16E15 /* Color+Extension.swift */; };
+		ED488A4D2B09194700D16E15 /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A4B2B09194700D16E15 /* LocationDetailsView.swift */; };
+		ED488A4E2B09194700D16E15 /* MyTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A4C2B09194700D16E15 /* MyTripView.swift */; };
+		ED488A5B2B092AE800D16E15 /* VNClassificationObservation+confidenceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A592B092AE700D16E15 /* VNClassificationObservation+confidenceString.swift */; };
+		ED488A5C2B092AE800D16E15 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A5A2B092AE800D16E15 /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		ED488A5E2B092AF000D16E15 /* ImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A5D2B092AF000D16E15 /* ImagePredictor.swift */; };
+		ED488A622B092AFA00D16E15 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A5F2B092AF900D16E15 /* MainViewController.swift */; };
+		ED488A632B092AFA00D16E15 /* MainViewController+CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A602B092AF900D16E15 /* MainViewController+CameraPicker.swift */; };
+		ED488A642B092AFA00D16E15 /* MainViewController+PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A612B092AFA00D16E15 /* MainViewController+PhotoPicker.swift */; };
+		ED488A682B092BA800D16E15 /* AIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A672B092BA800D16E15 /* AIContainer.swift */; };
+		ED488A6A2B092C0900D16E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED488A692B092C0800D16E15 /* Main.storyboard */; };
+		ED488A6D2B0934B600D16E15 /* TW_form.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED488A6C2B0934B600D16E15 /* TW_form.pdf */; };
+		ED488A9A2B0996FD00D16E15 /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A922B0996FC00D16E15 /* ChatListView.swift */; };
+		ED488A9B2B0996FD00D16E15 /* DotLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A932B0996FC00D16E15 /* DotLoadingView.swift */; };
+		ED488A9C2B0996FD00D16E15 /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A942B0996FC00D16E15 /* ChatGPTAPI.swift */; };
+		ED488A9D2B0996FD00D16E15 /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A952B0996FD00D16E15 /* MessageRow.swift */; };
+		ED488A9E2B0996FD00D16E15 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A962B0996FD00D16E15 /* ViewModel.swift */; };
+		ED488A9F2B0996FD00D16E15 /* AssistanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A972B0996FD00D16E15 /* AssistanceView.swift */; };
+		ED488AA02B0996FD00D16E15 /* AvatarImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A982B0996FD00D16E15 /* AvatarImage.swift */; };
+		ED488AA12B0996FD00D16E15 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488A992B0996FD00D16E15 /* MessageRowView.swift */; };
+		ED488AA32B09970700D16E15 /* ChatGPTAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488AA22B09970700D16E15 /* ChatGPTAPIModel.swift */; };
+		ED488AA52B099B4000D16E15 /* PDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED488AA42B099B4000D16E15 /* PDFViewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +62,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4ED02E962B08DAA200430441 /* SelectTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTypeView.swift; sourceTree = "<group>"; };
+		4ED02E9A2B08E73A00430441 /* SelectBodyWeakness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBodyWeakness.swift; sourceTree = "<group>"; };
+		A92AAE112B09A59F00379E3B /* MedicationImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MedicationImageClassifier.mlmodel; path = ../../../../MedicationImageClassifier.mlmodel; sourceTree = "<group>"; };
 		AB231B032B087BDE0012EE4F /* Elder-plane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elder-plane.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB231B062B087BDE0012EE4F /* Elder_planeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elder_planeApp.swift; sourceTree = "<group>"; };
 		AB231B082B087BDE0012EE4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +75,31 @@
 		AB231B1D2B087BDF0012EE4F /* Elder-planeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Elder-planeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB231B212B087BDF0012EE4F /* Elder_planeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elder_planeUITests.swift; sourceTree = "<group>"; };
 		AB231B232B087BDF0012EE4F /* Elder_planeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elder_planeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED488A412B0902FD00D16E15 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		ED488A442B09050100D16E15 /* AllSetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllSetView.swift; sourceTree = "<group>"; };
+		ED488A462B09057400D16E15 /* InputMedications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputMedications.swift; sourceTree = "<group>"; };
+		ED488A482B0905D000D16E15 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		ED488A4B2B09194700D16E15 /* LocationDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
+		ED488A4C2B09194700D16E15 /* MyTripView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTripView.swift; sourceTree = "<group>"; };
+		ED488A592B092AE700D16E15 /* VNClassificationObservation+confidenceString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VNClassificationObservation+confidenceString.swift"; sourceTree = "<group>"; };
+		ED488A5A2B092AE800D16E15 /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		ED488A5D2B092AF000D16E15 /* ImagePredictor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePredictor.swift; sourceTree = "<group>"; };
+		ED488A5F2B092AF900D16E15 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		ED488A602B092AF900D16E15 /* MainViewController+CameraPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainViewController+CameraPicker.swift"; sourceTree = "<group>"; };
+		ED488A612B092AFA00D16E15 /* MainViewController+PhotoPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainViewController+PhotoPicker.swift"; sourceTree = "<group>"; };
+		ED488A672B092BA800D16E15 /* AIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIContainer.swift; sourceTree = "<group>"; };
+		ED488A692B092C0800D16E15 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		ED488A6C2B0934B600D16E15 /* TW_form.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TW_form.pdf; sourceTree = "<group>"; };
+		ED488A922B0996FC00D16E15 /* ChatListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		ED488A932B0996FC00D16E15 /* DotLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotLoadingView.swift; sourceTree = "<group>"; };
+		ED488A942B0996FC00D16E15 /* ChatGPTAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatGPTAPI.swift; sourceTree = "<group>"; };
+		ED488A952B0996FD00D16E15 /* MessageRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
+		ED488A962B0996FD00D16E15 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		ED488A972B0996FD00D16E15 /* AssistanceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistanceView.swift; sourceTree = "<group>"; };
+		ED488A982B0996FD00D16E15 /* AvatarImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarImage.swift; sourceTree = "<group>"; };
+		ED488A992B0996FD00D16E15 /* MessageRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
+		ED488AA22B09970700D16E15 /* ChatGPTAPIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatGPTAPIModel.swift; sourceTree = "<group>"; };
+		ED488AA42B099B4000D16E15 /* PDFViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +150,11 @@
 		AB231B052B087BDE0012EE4F /* Elder-plane */ = {
 			isa = PBXGroup;
 			children = (
+				ED488A6B2B0934A100D16E15 /* PDF */,
+				ED488A482B0905D000D16E15 /* Color+Extension.swift */,
+				ED488A432B09036400D16E15 /* Discover */,
+				ED488A4F2B09197100D16E15 /* Assistance */,
+				ED488A4A2B09193D00D16E15 /* MyTrip */,
 				AB231B062B087BDE0012EE4F /* Elder_planeApp.swift */,
 				AB231B082B087BDE0012EE4F /* ContentView.swift */,
 				AB231B0A2B087BDF0012EE4F /* Assets.xcassets */,
@@ -125,6 +186,69 @@
 				AB231B232B087BDF0012EE4F /* Elder_planeUITestsLaunchTests.swift */,
 			);
 			path = "Elder-planeUITests";
+			sourceTree = "<group>";
+		};
+		ED488A432B09036400D16E15 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				ED488A692B092C0800D16E15 /* Main.storyboard */,
+				ED488A672B092BA800D16E15 /* AIContainer.swift */,
+				ED488A542B092ACC00D16E15 /* ImageClassifier */,
+				ED488A442B09050100D16E15 /* AllSetView.swift */,
+				4ED02E9A2B08E73A00430441 /* SelectBodyWeakness.swift */,
+				4ED02E962B08DAA200430441 /* SelectTypeView.swift */,
+				ED488A462B09057400D16E15 /* InputMedications.swift */,
+				ED488A412B0902FD00D16E15 /* DiscoverView.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		ED488A4A2B09193D00D16E15 /* MyTrip */ = {
+			isa = PBXGroup;
+			children = (
+				ED488A4B2B09194700D16E15 /* LocationDetailsView.swift */,
+				ED488A4C2B09194700D16E15 /* MyTripView.swift */,
+			);
+			path = MyTrip;
+			sourceTree = "<group>";
+		};
+		ED488A4F2B09197100D16E15 /* Assistance */ = {
+			isa = PBXGroup;
+			children = (
+				ED488AA22B09970700D16E15 /* ChatGPTAPIModel.swift */,
+				ED488A972B0996FD00D16E15 /* AssistanceView.swift */,
+				ED488A982B0996FD00D16E15 /* AvatarImage.swift */,
+				ED488A942B0996FC00D16E15 /* ChatGPTAPI.swift */,
+				ED488A922B0996FC00D16E15 /* ChatListView.swift */,
+				ED488A932B0996FC00D16E15 /* DotLoadingView.swift */,
+				ED488A952B0996FD00D16E15 /* MessageRow.swift */,
+				ED488A992B0996FD00D16E15 /* MessageRowView.swift */,
+				ED488A962B0996FD00D16E15 /* ViewModel.swift */,
+			);
+			path = Assistance;
+			sourceTree = "<group>";
+		};
+		ED488A542B092ACC00D16E15 /* ImageClassifier */ = {
+			isa = PBXGroup;
+			children = (
+				ED488A5F2B092AF900D16E15 /* MainViewController.swift */,
+				ED488A602B092AF900D16E15 /* MainViewController+CameraPicker.swift */,
+				A92AAE112B09A59F00379E3B /* MedicationImageClassifier.mlmodel */,
+				ED488A612B092AFA00D16E15 /* MainViewController+PhotoPicker.swift */,
+				ED488A5D2B092AF000D16E15 /* ImagePredictor.swift */,
+				ED488A5A2B092AE800D16E15 /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+				ED488A592B092AE700D16E15 /* VNClassificationObservation+confidenceString.swift */,
+			);
+			path = ImageClassifier;
+			sourceTree = "<group>";
+		};
+		ED488A6B2B0934A100D16E15 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				ED488A6C2B0934B600D16E15 /* TW_form.pdf */,
+				ED488AA42B099B4000D16E15 /* PDFViewer.swift */,
+			);
+			path = PDF;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +355,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED488A6A2B092C0900D16E15 /* Main.storyboard in Resources */,
+				ED488A6D2B0934B600D16E15 /* TW_form.pdf in Resources */,
 				AB231B0E2B087BDF0012EE4F /* Preview Assets.xcassets in Resources */,
 				AB231B0B2B087BDF0012EE4F /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +383,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED02E972B08DAA200430441 /* SelectTypeView.swift in Sources */,
+				ED488A492B0905D000D16E15 /* Color+Extension.swift in Sources */,
+				ED488A5C2B092AE800D16E15 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				ED488A422B0902FD00D16E15 /* DiscoverView.swift in Sources */,
+				ED488A5E2B092AF000D16E15 /* ImagePredictor.swift in Sources */,
+				ED488A9E2B0996FD00D16E15 /* ViewModel.swift in Sources */,
+				ED488A5B2B092AE800D16E15 /* VNClassificationObservation+confidenceString.swift in Sources */,
+				ED488AA32B09970700D16E15 /* ChatGPTAPIModel.swift in Sources */,
+				4ED02E9B2B08E73A00430441 /* SelectBodyWeakness.swift in Sources */,
+				ED488A9F2B0996FD00D16E15 /* AssistanceView.swift in Sources */,
+				A92AAE122B09A59F00379E3B /* MedicationImageClassifier.mlmodel in Sources */,
+				ED488A632B092AFA00D16E15 /* MainViewController+CameraPicker.swift in Sources */,
+				ED488A9A2B0996FD00D16E15 /* ChatListView.swift in Sources */,
+				ED488A642B092AFA00D16E15 /* MainViewController+PhotoPicker.swift in Sources */,
+				ED488A622B092AFA00D16E15 /* MainViewController.swift in Sources */,
+				ED488A4D2B09194700D16E15 /* LocationDetailsView.swift in Sources */,
+				ED488A9D2B0996FD00D16E15 /* MessageRow.swift in Sources */,
+				ED488A682B092BA800D16E15 /* AIContainer.swift in Sources */,
+				ED488AA02B0996FD00D16E15 /* AvatarImage.swift in Sources */,
+				ED488A452B09050100D16E15 /* AllSetView.swift in Sources */,
 				AB231B092B087BDE0012EE4F /* ContentView.swift in Sources */,
+				ED488A9B2B0996FD00D16E15 /* DotLoadingView.swift in Sources */,
 				AB231B072B087BDE0012EE4F /* Elder_planeApp.swift in Sources */,
+				ED488AA12B0996FD00D16E15 /* MessageRowView.swift in Sources */,
+				ED488A472B09057400D16E15 /* InputMedications.swift in Sources */,
+				ED488A9C2B0996FD00D16E15 /* ChatGPTAPI.swift in Sources */,
+				ED488AA52B099B4000D16E15 /* PDFViewer.swift in Sources */,
+				ED488A4E2B09194700D16E15 /* MyTripView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,13 +569,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Elder-plane/Preview Content\"";
+				DEVELOPMENT_TEAM = 333A7J5AWS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For AI Detection";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "For AI Detection";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "For AI Detection";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,13 +602,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Elder-plane/Preview Content\"";
+				DEVELOPMENT_TEAM = 333A7J5AWS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For AI Detection";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "For AI Detection";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "For AI Detection";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
